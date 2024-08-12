@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;;
+        }
+       
+        div{
+            width: 150px;
+            height: 150px;
+            background-color: mediumseagreen;
+            transition: all 600ms ease-in-out ;
+            /*transform: translate(100px);*/
+            cursor: pointer;
+        }
+        div:hover{
+              transform: rotate(360deg);   /*scan scale*/
+        }
+        img{
+            transition: all 600ms ease-in-out ;
+            /*transform: translate(100px);*/
+            filter: grayscale(1) blur(2px);
+        }
+        img:hover{
+            transform: scale(1.2);
+            filter: grayscale(0) blur(0);
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    <img src="c:\Users\hp\Desktop\photos\image.jpg" alt="picture">
+</body>
+</html>
+
+
+
+
+
+to hide the element in the current Document
+display:none;    //used most of the times
+visibility: hidden;
+opactiy:0;

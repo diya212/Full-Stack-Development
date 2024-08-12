@@ -1,0 +1,29 @@
+/*tagname*/
+h1{
+    color:blue
+}
+
+/*using id*/
+#heading{
+    color : blue;
+}
+
+/*using class*/
+.heading2{
+    color:blue;
+
+}/* id>>class>>tagname*/
+
+#secondary_headin{
+    color:rgb(0,0,255)
+}
+
+#secondary_headin{
+    color:rgba(89, 0, 255, 0.212);
+    background-color: blue;
+    padding
+}
+/*used to remove the bullet points and numbering from the list*/
+ul{
+    list-style-type: :lower-alpha;
+}

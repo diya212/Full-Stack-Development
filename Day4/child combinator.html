@@ -1,0 +1,53 @@
+<!--CHILD COMBINATOR-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /*CHILD COMBINATOR*/
+        ul>li{
+            color: red;
+        }
+        /*descendent selector*/
+        div h1{
+            color: blue;
+        }
+
+        /*grouping selector*/
+       h2,p{
+        color: red;
+       }
+       /*pseudo classes*/
+       a{
+        transition: all 400ms ease-in 100ms;
+       }
+       a:hover{
+        color: brown;
+        font-size: 40px;
+       }
+       a:active{
+        color: blue;  /*it works at the time of click*/
+       }
+       
+    /* tansitioon <property> <duration> <timing-function>*/    
+    </style>
+    </head>
+    <body>
+    <ul>  <!-- ul>li*3 -->
+        <li> list item</li>
+        <li> list item</li>
+        <li> list item</li>
+        <li> list item</li>
+    </ul>
+    <div>
+        <h1>Hello</h1>
+    </div>
+    <div id="wrapper">
+    <h2>techno</h2>
+    <p>hello</p>
+    <a href="">click here</a>
+    </div>
+</body>
+</html>
